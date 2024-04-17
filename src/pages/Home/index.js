@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 import './Home.css';
 
 function Home(){
@@ -27,6 +29,11 @@ function Home(){
       <header>
         <strong>React Nutri</strong>
       </header>
+      
+      <br/>
+      <Link to="/sobre" >Página Sobre</Link>
+      <br/>
+      <Link to="/contato" >Página de Contato</Link>
 
       {nutri.map(item => {
         return (
