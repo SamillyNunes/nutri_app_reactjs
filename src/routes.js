@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
+import Article from './pages/Article';
 
 import Header from './components/Header';
 
@@ -17,6 +18,7 @@ function RoutesApp(){
                 <Route path='/' element={ <Home/> } />
                 <Route path='/sobre' element={ <About/> } />
                 <Route path='/contato' element={ <Contact/> } />
+                <Route path='/article/:id' element={ <Article/> } />
 
                 <Route path='*' element={ <Error/> } />
             </Routes>
