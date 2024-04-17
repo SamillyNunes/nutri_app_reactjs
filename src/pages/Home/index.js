@@ -26,9 +26,7 @@ function Home(){
 
   return (
     <div className="container">
-      <header>
-        <strong>React Nutri</strong>
-      </header>
+      
       
       <br/>
       <Link to="/sobre" >Página Sobre</Link>
